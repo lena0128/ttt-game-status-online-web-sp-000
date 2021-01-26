@@ -24,7 +24,7 @@ def won?(board)
     position_2 = board[index_1]
     position_3 = board[index_2]
   if position_1 == position_2 && position_2 == position_3
-  win_combination
+  puts win_combination
 end
 }
 end
