@@ -20,7 +20,9 @@ def won?(board)
     if board[win_combination[0]] == "X" && board[win_combination[1]] == "X" && board[win_combination[2]] == "X"
       win_combination
   end
+ end
 end
+
 
 def full?(board)
     board.all? do |board_full|
