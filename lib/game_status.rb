@@ -53,7 +53,7 @@ def winner(board)
       return "X"
     elsif board[checkwinner[0]] == "O"
       return "O"
-    else won?(board) == false
+    else draw?(board)
       return nil
     end
   end
