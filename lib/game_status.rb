@@ -53,7 +53,7 @@ def winner(board)
       return "X"
     elsif board[checkwinner[0]] == "O"
       return "O"
-   else board[checkwinner[0]] == ""
+   else board[checkwinner[0]] == " "
      return ""
     end
   end
