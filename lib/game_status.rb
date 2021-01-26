@@ -48,6 +48,7 @@ def over?(board)
 end
 
 def winner(board)
+ checkwinner = []
   checkwinner = won?(board)
    if board[checkwinner[0]] == "X"
       return "X"
