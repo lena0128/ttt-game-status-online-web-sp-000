@@ -48,12 +48,12 @@ def over?(board)
 end
 
 def winner(board)
- checkwinner = []
   checkwinner = won?(board)
    if board[checkwinner[0]] == "X"
       return "X"
     elsif board[checkwinner[0]] == "O"
       return "O"
+   else
+     return nil
     end
-    nil
   end
