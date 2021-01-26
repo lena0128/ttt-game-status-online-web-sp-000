@@ -49,11 +49,11 @@ end
 
 def winner(board)
   checkwinner = won?(board)
-   if board[checkwinner[0]] == "X"
+  if won?(board) == false
+    return nil
+  elsif board[checkwinner[0]] == "X"
       return "X"
     elsif board[checkwinner[0]] == "O"
       return "O"
-    else draw?(board)
-      return nil
     end
   end
