@@ -54,6 +54,6 @@ def winner(board)
     elsif board[checkwinner[0]] == "O"
       return "O"
    else
-     return nil
+     return ""
     end
   end
